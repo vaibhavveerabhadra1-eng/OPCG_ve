@@ -1,0 +1,161 @@
+[
+  {
+    "id": 1,
+    "name": "Tulsi (Holy Basil)",
+    "sci": "Ocimum tenuiflorum",
+    "emoji": "🌿",
+    "type": "Herb",
+    "sun": "Full Sun",
+    "water": "Every 2–3 days",
+    "difficulty": "Easy",
+    "benefits": [
+      "Air purifier",
+      "Stress relief",
+      "Sacred plant"
+    ]
+  },
+
+  {
+    "id": 2,
+    "name": "Aloe Vera",
+    "sci": "Aloe barbadensis miller",
+    "emoji": "🌵",
+    "type": "Succulent",
+    "sun": "Indirect Bright Light",
+    "water": "Every 2–3 weeks",
+    "difficulty": "Easy",
+    "benefits": [
+      "Skin healing",
+      "Digestive aid",
+      "Low maintenance"
+    ]
+  },
+
+  {
+    "id": 3,
+    "name": "Money Plant",
+    "sci": "Epipremnum aureum",
+    "emoji": "💚",
+    "type": "Vine",
+    "sun": "Low to Medium Light",
+    "water": "Every 7–10 days",
+    "difficulty": "Very Easy",
+    "benefits": [
+      "Air purifier",
+      "Low-light tolerant",
+      "Removes toxins"
+    ]
+  },
+
+  {
+    "id": 4,
+    "name": "Neem",
+    "sci": "Azadirachta indica",
+    "emoji": "🌳",
+    "type": "Tree",
+    "sun": "Full Sun",
+    "water": "Every 4–7 days",
+    "difficulty": "Moderate",
+    "benefits": [
+      "Antibacterial",
+      "Antifungal",
+      "Dental health"
+    ]
+  },
+
+  {
+    "id": 5,
+    "name": "Lavender",
+    "sci": "Lavandula angustifolia",
+    "emoji": "💜",
+    "type": "Herb/Shrub",
+    "sun": "Full Sun",
+    "water": "Every 7–14 days",
+    "difficulty": "Moderate",
+    "benefits": [
+      "Stress relief",
+      "Aromatherapy",
+      "Insomnia aid"
+    ]
+  },
+
+  {
+    "id": 6,
+    "name": "Snake Plant",
+    "sci": "Sansevieria trifasciata",
+    "emoji": "🗡️",
+    "type": "Succulent",
+    "sun": "Low to Bright Indirect",
+    "water": "Every 2–6 weeks",
+    "difficulty": "Very Easy",
+    "benefits": [
+      "Night oxygen",
+      "Air purifier",
+      "Bedroom plant"
+    ]
+  },
+
+  {
+    "id": 7,
+    "name": "Mint",
+    "sci": "Mentha × piperita",
+    "emoji": "🌱",
+    "type": "Herb",
+    "sun": "Partial to Full Sun",
+    "water": "Every 2–3 days",
+    "difficulty": "Easy",
+    "benefits": [
+      "Digestive aid",
+      "Fresh breath",
+      "Culinary herb"
+    ]
+  },
+
+  {
+    "id": 8,
+    "name": "Rose",
+    "sci": "Rosa × hybrida",
+    "emoji": "🌹",
+    "type": "Flowering Shrub",
+    "sun": "Full Sun",
+    "water": "Every 2–3 days",
+    "difficulty": "Moderate",
+    "benefits": [
+      "Vitamin C rich",
+      "Mood lifter",
+      "Skin care"
+    ]
+  },
+
+  {
+    "id": 9,
+    "name": "Jasmine",
+    "sci": "Jasminum sambac",
+    "emoji": "🤍",
+    "type": "Flowering Vine",
+    "sun": "Full Sun to Partial",
+    "water": "Every 3–5 days",
+    "difficulty": "Moderate",
+    "benefits": [
+      "Aromatherapy",
+      "Stress relief",
+      "Sleep aid"
+    ]
+  },
+
+  {
+    "id": 10,
+    "name": "Lemon Grass",
+    "sci": "Cymbopogon citratus",
+    "emoji": "🌾",
+    "type": "Grass/Herb",
+    "sun": "Full Sun",
+    "water": "Every 3–4 days",
+    "difficulty": "Easy",
+    "benefits": [
+      "Mosquito repellent",
+      "Digestive aid",
+      "Anti-anxiety"
+    ]
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "name": "Monstera",
+    "sci": "Monstera deliciosa",
+    "type": "Tropical",
+    "emoji": "🌿",
+    "difficulty": "Easy",
+    "sun": "Bright indirect",
+    "water": "Every 1–2 weeks",
+    "humidity": "High",
+    "temperature": "18–30°C",
+    "benefits": ["Air purifying", "Aesthetic", "Low maintenance"],
+    "description": "The Monstera, or Swiss Cheese Plant, is famous for its dramatic split leaves. A showstopper in any room, it's forgiving for beginners and grows fast with the right light.",
+    "tips": [
+      "Wipe leaves monthly to keep them dust-free and glossy.",
+      "Use a moss pole to encourage upward growth.",
+      "Yellow leaves usually mean overwatering — let soil dry between waterings.",
+      "Repot every 1–2 years in spring."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Snake Plant",
+    "sci": "Dracaena trifasciata",
+    "type": "Succulent",
+    "emoji": "🪴",
+    "difficulty": "Easy",
+    "sun": "Low to bright indirect",
+    "water": "Every 2–6 weeks",
+    "humidity": "Low",
+    "temperature": "15–29°C",
+    "benefits": ["Air purifying", "Low maintenance", "Drought tolerant", "Bedroom friendly"],
+    "description": "One of the most resilient houseplants around. The Snake Plant thrives on neglect, tolerates low light, and purifies the air while you sleep by releasing oxygen at night.",
+    "tips": [
+      "Overwatering is the #1 killer — always let soil fully dry out.",
+      "Great for bedrooms due to its night-time oxygen production.",
+      "Avoid direct harsh sunlight which can scorch the leaves.",
+      "Wipe leaves with a damp cloth to remove dust."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Pothos",
+    "sci": "Epipremnum aureum",
+    "type": "Trailing Vine",
+    "emoji": "🌱",
+    "difficulty": "Easy",
+    "sun": "Low to bright indirect",
+    "water": "Every 1–2 weeks",
+    "humidity": "Medium",
+    "temperature": "15–30°C",
+    "benefits": ["Air purifying", "Fast growing", "Low maintenance", "Great for beginners"],
+    "description": "Pothos is the ultimate starter plant. Its trailing vines look beautiful on shelves and in hanging baskets. It adapts to almost any light condition and tells you when it's thirsty by drooping slightly.",
+    "tips": [
+      "Let vines trail or train them up a support for a climbing look.",
+      "Propagate easily in water — just snip below a node.",
+      "Yellowing leaves = overwatering. Brown tips = underwatering or low humidity.",
+      "Toxic to pets — keep out of reach of dogs and cats."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Peace Lily",
+    "sci": "Spathiphyllum wallisii",
+    "type": "Flowering",
+    "emoji": "🌸",
+    "difficulty": "Easy",
+    "sun": "Low to medium indirect",
+    "water": "Every 1 week",
+    "humidity": "High",
+    "temperature": "18–30°C",
+    "benefits": ["Air purifying", "Flowers indoors", "Low light tolerant"],
+    "description": "The Peace Lily is one of the few houseplants that blooms beautifully even in low light. Its elegant white flowers and lush dark green leaves make it a classic interior plant.",
+    "tips": [
+      "It will dramatically droop when thirsty — a helpful built-in reminder.",
+      "Avoid cold drafts and radiators.",
+      "Mist leaves regularly or place on a pebble tray for humidity.",
+      "Toxic to pets and children — handle with care."
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Fiddle Leaf Fig",
+    "sci": "Ficus lyrata",
+    "type": "Tree",
+    "emoji": "🌳",
+    "difficulty": "Hard",
+    "sun": "Bright indirect",
+    "water": "Every 1–2 weeks",
+    "humidity": "Medium",
+    "temperature": "16–24°C",
+    "benefits": ["Aesthetic", "Statement piece", "Air purifying"],
+    "description": "The superstar of interior design, the Fiddle Leaf Fig commands attention with its large, violin-shaped leaves. It rewards patience and consistency with stunning growth.",
+    "tips": [
+      "Hates being moved — find its happy spot and leave it there.",
+      "Rotate quarterly for even growth.",
+      "Brown spots on edges = underwatering. Brown spots in the middle = root rot.",
+      "Dust leaves regularly — dirty leaves block photosynthesis."
+    ]
+  },
+  {
+    "id": 6,
+    "name": "ZZ Plant",
+    "sci": "Zamioculcas zamiifolia",
+    "type": "Tropical",
+    "emoji": "💚",
+    "difficulty": "Easy",
+    "sun": "Low to bright indirect",
+    "water": "Every 2–3 weeks",
+    "humidity": "Low",
+    "temperature": "15–30°C",
+    "benefits": ["Air purifying", "Drought tolerant", "Low maintenance", "Low light tolerant"],
+    "description": "The ZZ Plant stores water in its rhizomes, making it incredibly drought-tolerant. Its waxy, deep green leaves stay glossy with almost no effort, perfect for busy plant parents.",
+    "tips": [
+      "One of the most forgiving houseplants — great for forgetful waterers.",
+      "Never let it sit in water — root rot sets in quickly.",
+      "Grows slowly but steadily; don't rush it.",
+      "Toxic if ingested — wash hands after handling."
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Spider Plant",
+    "sci": "Chlorophytum comosum",
+    "type": "Trailing",
+    "emoji": "🕷️",
+    "difficulty": "Easy",
+    "sun": "Bright indirect",
+    "water": "Every 1–2 weeks",
+    "humidity": "Medium",
+    "temperature": "13–27°C",
+    "benefits": ["Air purifying", "Pet safe", "Fast growing", "Easy to propagate"],
+    "description": "Spider Plants are cheerful, fast-growing, and incredibly easy to propagate — they produce little 'spiderettes' you can share with friends. One of the very few houseplants that's safe for cats and dogs.",
+    "tips": [
+      "Hang in a basket to show off trailing spiderettes.",
+      "Root the spiderettes in water or soil to make new plants.",
+      "Brown tips are usually caused by fluoride in tap water — try filtered water.",
+      "Safe for pets!"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Aloe Vera",
+    "sci": "Aloe barbadensis miller",
+    "type": "Succulent",
+    "emoji": "🌵",
+    "difficulty": "Easy",
+    "sun": "Bright direct or indirect",
+    "water": "Every 2–3 weeks",
+    "humidity": "Low",
+    "temperature": "13–27°C",
+    "benefits": ["Medicinal", "Air purifying", "Drought tolerant", "Low maintenance"],
+    "description": "Aloe Vera is both beautiful and useful. Its gel-filled leaves soothe burns and skin irritation. A windowsill staple that thrives on neglect and bright light.",
+    "tips": [
+      "Plant in well-draining, gritty cactus mix.",
+      "Allow soil to dry completely between waterings.",
+      "Snap a lower leaf to access the soothing gel for burns or dry skin.",
+      "Watch for root rot if kept in standing water."
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Rubber Plant",
+    "sci": "Ficus elastica",
+    "type": "Tree",
+    "emoji": "🍂",
+    "difficulty": "Medium",
+    "sun": "Bright indirect",
+    "water": "Every 1–2 weeks",
+    "humidity": "Medium",
+    "temperature": "15–30°C",
+    "benefits": ["Air purifying", "Aesthetic", "Statement piece"],
+    "description": "With its large, glossy leaves in deep green or burgundy tones, the Rubber Plant is a bold statement maker. It grows tall and upright, making it perfect for corners and empty spaces.",
+    "tips": [
+      "Clean leaves with a damp cloth to keep them glossy.",
+      "Reduce watering significantly in winter.",
+      "Prune to control height and encourage bushiness.",
+      "Wear gloves when pruning — the sap can irritate skin."
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Boston Fern",
+    "sci": "Nephrolepis exaltata",
+    "type": "Fern",
+    "emoji": "🌾",
+    "difficulty": "Medium",
+    "sun": "Bright indirect",
+    "water": "Every 3–4 days",
+    "humidity": "High",
+    "temperature": "16–24°C",
+    "benefits": ["Air purifying", "Humidity loving", "Pet safe"],
+    "description": "Boston Ferns are lush, feathery, and dramatic — a classic hanging plant that purifies the air and adds a soft, wild feel to any space. They love humidity, making them perfect for bathrooms.",
+    "tips": [
+      "Mist daily or run a humidifier nearby.",
+      "Never let the soil completely dry out.",
+      "Shed leaves signal low humidity — move to a more humid spot.",
+      "Safe for cats and dogs."
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Lavender",
+    "sci": "Lavandula angustifolia",
+    "type": "Herb",
+    "emoji": "💜",
+    "difficulty": "Medium",
+    "sun": "Full sun",
+    "water": "Every 1–2 weeks",
+    "humidity": "Low",
+    "temperature": "7–21°C",
+    "benefits": ["Aromatic", "Medicinal", "Stress relieving", "Attracts pollinators"],
+    "description": "Lavender fills your home with calming fragrance and gorgeous purple blooms. It prefers sunny spots and dry conditions, rewarding you with both beauty and relaxing aromatherapy.",
+    "tips": [
+      "Needs at least 6 hours of direct sunlight daily.",
+      "Excellent drainage is essential — use sandy soil or add perlite.",
+      "Trim after blooming to keep it bushy and healthy.",
+      "Dry the flowers for sachets or culinary use."
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Basil",
+    "sci": "Ocimum basilicum",
+    "type": "Herb",
+    "emoji": "🌿",
+    "difficulty": "Medium",
+    "sun": "Full sun",
+    "water": "Every 2–3 days",
+    "humidity": "Medium",
+    "temperature": "18–30°C",
+    "benefits": ["Edible", "Aromatic", "Culinary", "Repels insects"],
+    "description": "Fresh basil at your fingertips year-round! This culinary superstar loves warmth and sun, and rewards regular harvesting with a continuous flush of flavorful leaves.",
+    "tips": [
+      "Pinch off flower buds to keep leaf production going.",
+      "Harvest from the top down, always above a leaf pair.",
+      "Keep away from cold drafts and air conditioning.",
+      "Water at the base — wet leaves invite fungal disease."
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Chinese Evergreen",
+    "sci": "Aglaonema commutatum",
+    "type": "Tropical",
+    "emoji": "🍃",
+    "difficulty": "Easy",
+    "sun": "Low to medium indirect",
+    "water": "Every 1–2 weeks",
+    "humidity": "Medium",
+    "temperature": "18–27°C",
+    "benefits": ["Air purifying", "Low light tolerant", "Low maintenance", "Colorful foliage"],
+    "description": "Chinese Evergreens come in stunning varieties — from deep green to pink and red variegation. They're adaptable, beautiful, and one of the most forgiving plants for indoor spaces.",
+    "tips": [
+      "Darker varieties tolerate lower light; brighter varieties need more light.",
+      "Avoid cold temperatures and drafts.",
+      "Wipe leaves to keep them vibrant.",
+      "Mildly toxic — keep away from pets and small children."
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Bird of Paradise",
+    "sci": "Strelitzia reginae",
+    "type": "Tropical",
+    "emoji": "🦜",
+    "difficulty": "Medium",
+    "sun": "Bright direct or indirect",
+    "water": "Every 1–2 weeks",
+    "humidity": "Medium",
+    "temperature": "18–30°C",
+    "benefits": ["Statement piece", "Aesthetic", "Air purifying"],
+    "description": "The Bird of Paradise is a bold, architectural plant with large paddle-shaped leaves. Given enough light, it can even bloom indoors with spectacular orange and blue flowers.",
+    "tips": [
+      "Give it the brightest spot in your home.",
+      "Allow the top 2 inches of soil to dry before watering.",
+      "Clean large leaves regularly.",
+      "Patience is key — it blooms only when root-bound and mature."
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Cactus",
+    "sci": "Cactaceae family",
+    "type": "Succulent",
+    "emoji": "🌵",
+    "difficulty": "Easy",
+    "sun": "Full sun",
+    "water": "Every 2–4 weeks",
+    "humidity": "Low",
+    "temperature": "15–35°C",
+    "benefits": ["Drought tolerant", "Low maintenance", "Unique aesthetic", "Long-lived"],
+    "description": "Cacti are the ultimate survivors. With hundreds of species to collect, they add sculptural beauty to any sunny spot and ask almost nothing in return — just light and the occasional drink.",
+    "tips": [
+      "Use a well-draining cactus mix with added perlite.",
+      "Water deeply but infrequently — let soil dry fully between waterings.",
+      "In winter, reduce watering to once a month.",
+      "Handle with tongs or thick gloves when repotting."
+    ]
+  }
+]

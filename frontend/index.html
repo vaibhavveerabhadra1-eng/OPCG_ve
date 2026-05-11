@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Bloomly — Your Plant Care Companion</title>
+
+  <!-- CSS FILE -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Playfair+Display:ital,wght@1,400;1,600&display=swap" rel="stylesheet"/>
+</head>
+
+<body data-theme="green">
+
+  <!-- SIDEBAR -->
+  <nav id="sidebar">
+    <div class="sidebar-logo">
+      <h1>🌿 Bloomly</h1>
+      <p>Your plant care companion</p>
+    </div>
+
+    <div class="nav-item active" onclick="showSection('dashboard')">
+      <span class="nav-icon">🏠</span>
+      <span>Dashboard</span>
+    </div>
+
+    <div class="nav-item" onclick="showSection('guide')">
+      <span class="nav-icon">📖</span>
+      <span>Plant Guide</span>
+    </div>
+
+    <div class="nav-item" onclick="showSection('myplants')">
+      <span class="nav-icon">🪴</span>
+      <span>My Plants</span>
+    </div>
+
+    <div class="nav-item" onclick="showSection('growth')">
+      <span class="nav-icon">📸</span>
+      <span>Growth Log</span>
+    </div>
+
+    <div class="nav-item" onclick="showSection('notifications')">
+      <span class="nav-icon">🔔</span>
+      <span>Alerts</span>
+
+      <span class="nav-badge" id="notif-badge">3</span>
+    </div>
+
+    <div class="nav-item" onclick="showSection('profile')">
+      <span class="nav-icon">👤</span>
+      <span>Profile</span>
+    </div>
+
+    <div class="nav-item" onclick="showSection('settings')">
+      <span class="nav-icon">⚙️</span>
+      <span>Settings</span>
+    </div>
+  </nav>
+
+  <!-- MAIN -->
+  <main id="main">
+
+    <!-- DASHBOARD -->
+    <div id="section-dashboard" class="section active">
+
+      <div class="topbar">
+        <div class="topbar-left">
+          <h2 id="greeting-text">
+            Good morning, Plant Parent 🌱
+          </h2>
+
+          <p id="date-display"></p>
+        </div>
+
+        <div id="weather-widget">
+          <div class="weather-top">
+
+            <div class="weather-icon" id="w-icon">
+              ⛅
+            </div>
+
+            <div class="weather-info">
+              <div class="temp" id="w-temp">
+                26°C
+              </div>
+
+              <div class="city" id="w-city">
+                Bengaluru, IN
+              </div>
+            </div>
+
+          </div>
+
+          <div class="weather-desc" id="w-desc">
+            Partly cloudy · Humidity 72%
+          </div>
+        </div>
+      </div>
+
+      <!-- WEATHER WARNING -->
+      <div class="weather-warning" id="weather-warn">
+
+        <span>⚠️</span>
+
+        <div id="warn-text">
+          High humidity today! Check your plants for fungal issues and ensure good air circulation.
+        </div>
+
+      </div>
+
+      <!-- ENCOURAGEMENT -->
+      <div class="ticker-wrapper">
+        <div class="ticker-inner" id="ticker"></div>
+      </div>
+
+      <!-- STATS -->
+      <div class="stats-row">
+
+        <div class="stat-card">
+          <div class="s-icon">🌿</div>
+          <div class="s-val" id="stat-plants">0</div>
+          <div class="s-lbl">My Plants</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="s-icon">💧</div>
+          <div class="s-val" id="stat-water">0</div>
+          <div class="s-lbl">Watered Today</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="s-icon">📸</div>
+          <div class="s-val" id="stat-logs">0</div>
+          <div class="s-lbl">Growth Logs</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="s-icon">🏆</div>
+          <div class="s-val" id="stat-streak">7</div>
+          <div class="s-lbl">Day Streak</div>
+        </div>
+
+      </div>
+
+      <!-- MOTIVATION -->
+      <div class="motivation-banner" id="mot-banner">
+
+        <div class="mot-icon">🌻</div>
+
+        <div>
+          <strong id="mot-quote">
+            Loading your daily encouragement...
+          </strong>
+
+          <p style="margin-top:6px;font-size:12px;">
+            — Daily Bloom Wisdom
+          </p>
+        </div>
+
+      </div>
+
+      <!-- TASKS -->
+      <div class="section-title">
+        📋 Today's Plant Tasks
+      </div>
+
+      <div id="tasks-list"></div>
+
+      <!-- QUICK ACTIONS -->
+      <div class="section-title">
+        🌱 Quick Add Plant
+      </div>
+
+      <div style="display:flex;gap:12px;flex-wrap:wrap;">
+
+        <button class="btn btn-primary">
+          ➕ Add New Plant
+        </button>
+
+        <button class="btn btn-secondary">
+          📖 Browse Plant Guide
+        </button>
+
+        <button class="btn btn-secondary">
+          📸 Log Growth
+        </button>
+
+      </div>
+
+    </div>
+
+    <!-- PLANT GUIDE -->
+    <div id="section-guide" class="section">
+
+      <div class="topbar">
+
+        <div class="topbar-left">
+          <h2>Plant Guide 📖</h2>
+
+          <p>
+            Discover plants, care needs & benefits
+          </p>
+        </div>
+
+      </div>
+
+      <div class="search-box">
+
+        <span>🔍</span>
+
+        <input
+          type="text"
+          id="plant-search"
+          placeholder="Search by name..."
+        />
+
+      </div>
+
+      <div class="cards-grid" id="plant-grid"></div>
+
+    </div>
+
+    <!-- MY PLANTS -->
+<div id="section-myplants" class="section">
+
+  <div class="topbar">
+    <div class="topbar-left">
+      <h2>My Plants 🪴</h2>
+      <p>Your personal garden collection</p>
+    </div>
+  </div>
+
+  <div id="empty-plants">
+    <p>No plants added yet.</p>
+  </div>
+
+  <div id="my-plants-grid"></div>
+
+</div>
+
+<!-- GROWTH LOG -->
+<div id="section-growth" class="section">
+
+  <div class="topbar">
+    <div class="topbar-left">
+      <h2>Growth Log 📸</h2>
+      <p>Track your plant journey</p>
+    </div>
+  </div>
+
+  <div id="growth-plant-selector"></div>
+
+  <div id="empty-growth">
+    <p>No growth logs yet.</p>
+  </div>
+
+  <div id="growth-timeline"></div>
+
+</div>
+
+<!-- NOTIFICATIONS -->
+<div id="section-notifications" class="section">
+
+  <div class="topbar">
+    <div class="topbar-left">
+      <h2>Alerts 🔔</h2>
+      <p>Your plant notifications</p>
+    </div>
+  </div>
+
+  <div id="notif-list"></div>
+
+</div>
+
+<!-- PROFILE -->
+<div id="section-profile" class="section">
+    <p id="display-bio">Plant lover 🌱</p>
+  <div class="topbar">
+    <div class="topbar-left">
+      <h2>Profile 👤</h2>
+      <p>Your Bloomly profile</p>
+
+      <div style="margin-top:20px;max-width:400px;">
+
+  <input
+    id="prof-name"
+    type="text"
+    placeholder="Name"
+    style="width:100%;padding:10px;margin-bottom:10px;"
+  >
+
+  <input
+    id="prof-email"
+    type="email"
+    placeholder="Email"
+    style="width:100%;padding:10px;margin-bottom:10px;"
+  >
+
+  <textarea
+    id="prof-bio"
+    placeholder="Bio"
+    style="width:100%;padding:10px;height:100px;"
+  ></textarea>
+
+</div>
+    </div>
+  </div>
+
+  <div id="profile-avatar">🧑‍🌾</div>
+
+  <h3 id="display-name">Plant Parent</h3>
+
+  <p id="display-email">example@email.com</p>
+
+  <p id="display-bio">Plant lover 🌱</p>
+
+</div>
+
+<!-- SETTINGS -->
+<div id="section-settings" class="section">
+
+  <div class="topbar">
+    <div class="topbar-left">
+      <h2>Settings ⚙️</h2>
+      <p>Customize your experience</p>
+    </div>
+  </div>
+
+  <p>Settings page coming soon 🌿</p>
+
+</div>
+  </main>
+
+  <!-- MODAL -->
+  <div id="modal-overlay">
+
+    <div id="modal">
+
+      <button class="modal-close">
+        ×
+      </button>
+
+      <div id="modal-content"></div>
+
+    </div>
+
+  </div>
+
+  <!-- TOAST -->
+  <div id="toast"></div>
+
+  <!-- JAVASCRIPT FILE -->
+  <script src="main.js"></script>
+
+</body>
+</html>
