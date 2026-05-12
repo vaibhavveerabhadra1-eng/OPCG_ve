@@ -1,161 +1,502 @@
 [
   {
     "id": 1,
-    "name": "Tulsi (Holy Basil)",
-    "sci": "Ocimum tenuiflorum",
+    "name": "Monstera",
+    "sci": "Monstera deliciosa",
+    "type": "Tropical",
     "emoji": "🌿",
-    "type": "Herb",
-    "sun": "Full Sun",
-    "water": "Every 2–3 days",
     "difficulty": "Easy",
-    "benefits": [
-      "Air purifier",
-      "Stress relief",
-      "Sacred plant"
+    "sun": "Bright indirect",
+    "water": "Every 1–2 weeks",
+    "humidity": "High",
+    "temperature": "18–30°C",
+    "benefits": ["Air purifying", "Aesthetic", "Low maintenance"],
+    "description": "The Monstera, or Swiss Cheese Plant, is famous for its dramatic split leaves. A showstopper in any room, it's forgiving for beginners and grows fast with the right light.",
+    "tips": [
+      "Wipe leaves monthly to keep them dust-free and glossy.",
+      "Use a moss pole to encourage upward growth.",
+      "Yellow leaves usually mean overwatering — let soil dry between waterings.",
+      "Repot every 1–2 years in spring."
     ]
   },
-
   {
     "id": 2,
-    "name": "Aloe Vera",
-    "sci": "Aloe barbadensis miller",
-    "emoji": "🌵",
+    "name": "Snake Plant",
+    "sci": "Dracaena trifasciata",
     "type": "Succulent",
-    "sun": "Indirect Bright Light",
-    "water": "Every 2–3 weeks",
+    "emoji": "🪴",
     "difficulty": "Easy",
-    "benefits": [
-      "Skin healing",
-      "Digestive aid",
-      "Low maintenance"
+    "sun": "Low to bright indirect",
+    "water": "Every 2–6 weeks",
+    "humidity": "Low",
+    "temperature": "15–29°C",
+    "benefits": ["Air purifying", "Low maintenance", "Drought tolerant", "Bedroom friendly"],
+    "description": "One of the most resilient houseplants around. The Snake Plant thrives on neglect, tolerates low light, and purifies the air while you sleep by releasing oxygen at night.",
+    "tips": [
+      "Overwatering is the #1 killer — always let soil fully dry out.",
+      "Great for bedrooms due to its night-time oxygen production.",
+      "Avoid direct harsh sunlight which can scorch the leaves.",
+      "Wipe leaves with a damp cloth to remove dust."
     ]
   },
-
   {
     "id": 3,
-    "name": "Money Plant",
+    "name": "Pothos",
     "sci": "Epipremnum aureum",
-    "emoji": "💚",
-    "type": "Vine",
-    "sun": "Low to Medium Light",
-    "water": "Every 7–10 days",
-    "difficulty": "Very Easy",
-    "benefits": [
-      "Air purifier",
-      "Low-light tolerant",
-      "Removes toxins"
+    "type": "Trailing Vine",
+    "emoji": "🌱",
+    "difficulty": "Easy",
+    "sun": "Low to bright indirect",
+    "water": "Every 1–2 weeks",
+    "humidity": "Medium",
+    "temperature": "15–30°C",
+    "benefits": ["Air purifying", "Fast growing", "Low maintenance", "Great for beginners"],
+    "description": "Pothos is the ultimate starter plant. Its trailing vines look beautiful on shelves and in hanging baskets. It adapts to almost any light condition and tells you when it's thirsty by drooping slightly.",
+    "tips": [
+      "Let vines trail or train them up a support for a climbing look.",
+      "Propagate easily in water — just snip below a node.",
+      "Yellowing leaves = overwatering. Brown tips = underwatering or low humidity.",
+      "Toxic to pets — keep out of reach of dogs and cats."
     ]
   },
-
   {
     "id": 4,
-    "name": "Neem",
-    "sci": "Azadirachta indica",
-    "emoji": "🌳",
-    "type": "Tree",
-    "sun": "Full Sun",
-    "water": "Every 4–7 days",
-    "difficulty": "Moderate",
-    "benefits": [
-      "Antibacterial",
-      "Antifungal",
-      "Dental health"
+    "name": "Peace Lily",
+    "sci": "Spathiphyllum wallisii",
+    "type": "Flowering",
+    "emoji": "🌸",
+    "difficulty": "Easy",
+    "sun": "Low to medium indirect",
+    "water": "Every 1 week",
+    "humidity": "High",
+    "temperature": "18–30°C",
+    "benefits": ["Air purifying", "Flowers indoors", "Low light tolerant"],
+    "description": "The Peace Lily is one of the few houseplants that blooms beautifully even in low light. Its elegant white flowers and lush dark green leaves make it a classic interior plant.",
+    "tips": [
+      "It will dramatically droop when thirsty — a helpful built-in reminder.",
+      "Avoid cold drafts and radiators.",
+      "Mist leaves regularly or place on a pebble tray for humidity.",
+      "Toxic to pets and children — handle with care."
     ]
   },
-
   {
     "id": 5,
-    "name": "Lavender",
-    "sci": "Lavandula angustifolia",
-    "emoji": "💜",
-    "type": "Herb/Shrub",
-    "sun": "Full Sun",
-    "water": "Every 7–14 days",
-    "difficulty": "Moderate",
-    "benefits": [
-      "Stress relief",
-      "Aromatherapy",
-      "Insomnia aid"
+    "name": "Fiddle Leaf Fig",
+    "sci": "Ficus lyrata",
+    "type": "Tree",
+    "emoji": "🌳",
+    "difficulty": "Hard",
+    "sun": "Bright indirect",
+    "water": "Every 1–2 weeks",
+    "humidity": "Medium",
+    "temperature": "16–24°C",
+    "benefits": ["Aesthetic", "Statement piece", "Air purifying"],
+    "description": "The superstar of interior design, the Fiddle Leaf Fig commands attention with its large, violin-shaped leaves. It rewards patience and consistency with stunning growth.",
+    "tips": [
+      "Hates being moved — find its happy spot and leave it there.",
+      "Rotate quarterly for even growth.",
+      "Brown spots on edges = underwatering. Brown spots in the middle = root rot.",
+      "Dust leaves regularly — dirty leaves block photosynthesis."
     ]
   },
-
   {
     "id": 6,
-    "name": "Snake Plant",
-    "sci": "Sansevieria trifasciata",
-    "emoji": "🗡️",
-    "type": "Succulent",
-    "sun": "Low to Bright Indirect",
-    "water": "Every 2–6 weeks",
-    "difficulty": "Very Easy",
-    "benefits": [
-      "Night oxygen",
-      "Air purifier",
-      "Bedroom plant"
+    "name": "ZZ Plant",
+    "sci": "Zamioculcas zamiifolia",
+    "type": "Tropical",
+    "emoji": "💚",
+    "difficulty": "Easy",
+    "sun": "Low to bright indirect",
+    "water": "Every 2–3 weeks",
+    "humidity": "Low",
+    "temperature": "15–30°C",
+    "benefits": ["Air purifying", "Drought tolerant", "Low maintenance", "Low light tolerant"],
+    "description": "The ZZ Plant stores water in its rhizomes, making it incredibly drought-tolerant. Its waxy, deep green leaves stay glossy with almost no effort, perfect for busy plant parents.",
+    "tips": [
+      "One of the most forgiving houseplants — great for forgetful waterers.",
+      "Never let it sit in water — root rot sets in quickly.",
+      "Grows slowly but steadily; don't rush it.",
+      "Toxic if ingested — wash hands after handling."
     ]
   },
-
   {
     "id": 7,
-    "name": "Mint",
-    "sci": "Mentha × piperita",
-    "emoji": "🌱",
-    "type": "Herb",
-    "sun": "Partial to Full Sun",
-    "water": "Every 2–3 days",
+    "name": "Spider Plant",
+    "sci": "Chlorophytum comosum",
+    "type": "Trailing",
+    "emoji": "🕷️",
     "difficulty": "Easy",
-    "benefits": [
-      "Digestive aid",
-      "Fresh breath",
-      "Culinary herb"
+    "sun": "Bright indirect",
+    "water": "Every 1–2 weeks",
+    "humidity": "Medium",
+    "temperature": "13–27°C",
+    "benefits": ["Air purifying", "Pet safe", "Fast growing", "Easy to propagate"],
+    "description": "Spider Plants are cheerful, fast-growing, and incredibly easy to propagate — they produce little 'spiderettes' you can share with friends.",
+    "tips": [
+      "Hang in a basket to show off trailing spiderettes.",
+      "Root the spiderettes in water or soil to make new plants.",
+      "Brown tips are usually caused by fluoride in tap water.",
+      "Safe for pets!"
     ]
   },
-
   {
     "id": 8,
-    "name": "Rose",
-    "sci": "Rosa × hybrida",
-    "emoji": "🌹",
-    "type": "Flowering Shrub",
-    "sun": "Full Sun",
-    "water": "Every 2–3 days",
-    "difficulty": "Moderate",
-    "benefits": [
-      "Vitamin C rich",
-      "Mood lifter",
-      "Skin care"
+    "name": "Aloe Vera",
+    "sci": "Aloe barbadensis miller",
+    "type": "Succulent",
+    "emoji": "🌵",
+    "difficulty": "Easy",
+    "sun": "Bright direct or indirect",
+    "water": "Every 2–3 weeks",
+    "humidity": "Low",
+    "temperature": "13–27°C",
+    "benefits": ["Medicinal", "Air purifying", "Drought tolerant", "Low maintenance"],
+    "description": "Aloe Vera is both beautiful and useful. Its gel-filled leaves soothe burns and skin irritation.",
+    "tips": [
+      "Plant in well-draining cactus mix.",
+      "Allow soil to dry completely between waterings.",
+      "Use aloe gel for minor burns and dry skin.",
+      "Avoid overwatering."
     ]
   },
-
   {
     "id": 9,
-    "name": "Jasmine",
-    "sci": "Jasminum sambac",
-    "emoji": "🤍",
-    "type": "Flowering Vine",
-    "sun": "Full Sun to Partial",
-    "water": "Every 3–5 days",
-    "difficulty": "Moderate",
-    "benefits": [
-      "Aromatherapy",
-      "Stress relief",
-      "Sleep aid"
+    "name": "Rubber Plant",
+    "sci": "Ficus elastica",
+    "type": "Tree",
+    "emoji": "🍂",
+    "difficulty": "Medium",
+    "sun": "Bright indirect",
+    "water": "Every 1–2 weeks",
+    "humidity": "Medium",
+    "temperature": "15–30°C",
+    "benefits": ["Air purifying", "Aesthetic", "Statement piece"],
+    "description": "With its large glossy leaves, the Rubber Plant makes a bold statement indoors.",
+    "tips": [
+      "Clean leaves regularly.",
+      "Reduce watering in winter.",
+      "Prune to encourage bushiness.",
+      "Wear gloves when pruning."
     ]
   },
-
   {
     "id": 10,
-    "name": "Lemon Grass",
-    "sci": "Cymbopogon citratus",
+    "name": "Boston Fern",
+    "sci": "Nephrolepis exaltata",
+    "type": "Fern",
     "emoji": "🌾",
-    "type": "Grass/Herb",
-    "sun": "Full Sun",
+    "difficulty": "Medium",
+    "sun": "Bright indirect",
     "water": "Every 3–4 days",
+    "humidity": "High",
+    "temperature": "16–24°C",
+    "benefits": ["Air purifying", "Humidity loving", "Pet safe"],
+    "description": "Boston Ferns are lush, feathery, and dramatic hanging plants.",
+    "tips": [
+      "Mist daily.",
+      "Never let soil dry out completely.",
+      "Keep in humid rooms.",
+      "Safe for pets."
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Lavender",
+    "sci": "Lavandula angustifolia",
+    "type": "Herb",
+    "emoji": "💜",
+    "difficulty": "Medium",
+    "sun": "Full sun",
+    "water": "Every 1–2 weeks",
+    "humidity": "Low",
+    "temperature": "7–21°C",
+    "benefits": ["Aromatic", "Medicinal", "Stress relieving"],
+    "description": "Lavender fills spaces with calming fragrance and purple blooms.",
+    "tips": [
+      "Needs 6+ hours of sunlight.",
+      "Use sandy, well-draining soil.",
+      "Trim after flowering.",
+      "Avoid overwatering."
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Basil",
+    "sci": "Ocimum basilicum",
+    "type": "Herb",
+    "emoji": "🌿",
+    "difficulty": "Medium",
+    "sun": "Full sun",
+    "water": "Every 2–3 days",
+    "humidity": "Medium",
+    "temperature": "18–30°C",
+    "benefits": ["Edible", "Aromatic", "Culinary"],
+    "description": "Fresh basil grows quickly in warmth and sunlight.",
+    "tips": [
+      "Pinch flower buds.",
+      "Harvest from the top.",
+      "Keep warm.",
+      "Water at the base."
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Chinese Evergreen",
+    "sci": "Aglaonema commutatum",
+    "type": "Tropical",
+    "emoji": "🍃",
     "difficulty": "Easy",
-    "benefits": [
-      "Mosquito repellent",
-      "Digestive aid",
-      "Anti-anxiety"
+    "sun": "Low to medium indirect",
+    "water": "Every 1–2 weeks",
+    "humidity": "Medium",
+    "temperature": "18–27°C",
+    "benefits": ["Air purifying", "Low light tolerant", "Colorful foliage"],
+    "description": "Chinese Evergreens are adaptable and beautifully variegated.",
+    "tips": [
+      "Avoid cold drafts.",
+      "Wipe leaves clean.",
+      "Brighter varieties need more light.",
+      "Keep away from pets."
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Bird of Paradise",
+    "sci": "Strelitzia reginae",
+    "type": "Tropical",
+    "emoji": "🦜",
+    "difficulty": "Medium",
+    "sun": "Bright direct or indirect",
+    "water": "Every 1–2 weeks",
+    "humidity": "Medium",
+    "temperature": "18–30°C",
+    "benefits": ["Statement piece", "Aesthetic"],
+    "description": "Bird of Paradise is a bold tropical plant with large architectural leaves.",
+    "tips": [
+      "Needs bright light.",
+      "Allow top soil to dry slightly.",
+      "Clean leaves regularly.",
+      "Requires patience to bloom."
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Cactus",
+    "sci": "Cactaceae family",
+    "type": "Succulent",
+    "emoji": "🌵",
+    "difficulty": "Easy",
+    "sun": "Full sun",
+    "water": "Every 2–4 weeks",
+    "humidity": "Low",
+    "temperature": "15–35°C",
+    "benefits": ["Drought tolerant", "Low maintenance", "Unique aesthetic"],
+    "description": "Cacti are sculptural, resilient, and thrive in bright sunny spaces.",
+    "tips": [
+      "Use cactus soil mix.",
+      "Water deeply but rarely.",
+      "Reduce watering in winter.",
+      "Handle carefully while repotting."
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Calathea",
+    "sci": "Calathea orbifolia",
+    "type": "Tropical",
+    "emoji": "🍀",
+    "difficulty": "Medium",
+    "sun": "Medium indirect",
+    "water": "Every 5–7 days",
+    "humidity": "High",
+    "temperature": "18–27°C",
+    "benefits": ["Decorative foliage", "Pet safe", "Humidity loving"],
+    "description": "Calatheas are famous for their stunning patterned leaves that move throughout the day like praying hands.",
+    "tips": [
+      "Use filtered water to avoid brown leaf edges.",
+      "Needs high humidity to thrive.",
+      "Avoid direct sunlight.",
+      "Mist regularly."
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Jade Plant",
+    "sci": "Crassula ovata",
+    "type": "Succulent",
+    "emoji": "💎",
+    "difficulty": "Easy",
+    "sun": "Bright direct light",
+    "water": "Every 2–3 weeks",
+    "humidity": "Low",
+    "temperature": "18–24°C",
+    "benefits": ["Lucky plant", "Low maintenance", "Long-lived"],
+    "description": "Jade Plants symbolize prosperity and are loved for their thick glossy leaves and tree-like appearance.",
+    "tips": [
+      "Avoid overwatering.",
+      "Needs lots of sunlight.",
+      "Prune occasionally for shape.",
+      "Use succulent soil."
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Orchid",
+    "sci": "Phalaenopsis orchid",
+    "type": "Flowering",
+    "emoji": "🌺",
+    "difficulty": "Hard",
+    "sun": "Bright indirect",
+    "water": "Every 1 week",
+    "humidity": "High",
+    "temperature": "18–29°C",
+    "benefits": ["Elegant blooms", "Aesthetic", "Long flowering"],
+    "description": "Orchids produce exotic long-lasting blooms and elevate any indoor space beautifully.",
+    "tips": [
+      "Do not let roots sit in water.",
+      "Use orchid bark mix.",
+      "Provide humidity.",
+      "Bright indirect light is ideal."
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Areca Palm",
+    "sci": "Dypsis lutescens",
+    "type": "Palm",
+    "emoji": "🌴",
+    "difficulty": "Easy",
+    "sun": "Bright indirect",
+    "water": "Every 1 week",
+    "humidity": "Medium",
+    "temperature": "18–30°C",
+    "benefits": ["Air purifier", "Tropical aesthetic", "Pet safe"],
+    "description": "Areca Palms create a lush tropical atmosphere indoors and are excellent natural humidifiers.",
+    "tips": [
+      "Keep soil lightly moist.",
+      "Avoid cold drafts.",
+      "Trim brown fronds.",
+      "Rotate occasionally for even growth."
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Chamomile",
+    "sci": "Matricaria chamomilla",
+    "type": "Herb",
+    "emoji": "🌼",
+    "difficulty": "Easy",
+    "sun": "Full sun",
+    "water": "Every 3–4 days",
+    "humidity": "Medium",
+    "temperature": "15–25°C",
+    "benefits": ["Tea herb", "Relaxation", "Medicinal"],
+    "description": "Chamomile is cherished for its calming flowers commonly used in soothing herbal teas.",
+    "tips": [
+      "Harvest flowers regularly.",
+      "Needs plenty of sunlight.",
+      "Avoid soggy soil.",
+      "Prune for bushier growth."
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Philodendron",
+    "sci": "Philodendron hederaceum",
+    "type": "Trailing Vine",
+    "emoji": "🌿",
+    "difficulty": "Easy",
+    "sun": "Low to bright indirect",
+    "water": "Every 1–2 weeks",
+    "humidity": "Medium",
+    "temperature": "18–29°C",
+    "benefits": ["Fast growing", "Low maintenance", "Air purifying"],
+    "description": "Philodendrons are adaptable trailing plants with lush heart-shaped leaves.",
+    "tips": [
+      "Allow top soil to dry slightly.",
+      "Trim vines for fuller growth.",
+      "Easy to propagate in water.",
+      "Avoid direct harsh sunlight."
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Croton",
+    "sci": "Codiaeum variegatum",
+    "type": "Tropical",
+    "emoji": "🌈",
+    "difficulty": "Medium",
+    "sun": "Bright direct or indirect",
+    "water": "Every 5–7 days",
+    "humidity": "High",
+    "temperature": "18–30°C",
+    "benefits": ["Colorful foliage", "Decorative", "Statement plant"],
+    "description": "Crotons are known for their intensely colorful leaves in shades of red, orange, yellow, and green.",
+    "tips": [
+      "Needs bright light for vivid colors.",
+      "Avoid sudden environmental changes.",
+      "Keep humidity high.",
+      "Water consistently."
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Bamboo",
+    "sci": "Bambusoideae",
+    "type": "Grass",
+    "emoji": "🎍",
+    "difficulty": "Easy",
+    "sun": "Indirect light",
+    "water": "Keep roots wet",
+    "humidity": "Medium",
+    "temperature": "18–35°C",
+    "benefits": ["Lucky plant", "Fast growing", "Decorative"],
+    "description": "Lucky Bamboo is popular in homes and offices for its minimal care needs and symbolic positivity.",
+    "tips": [
+      "Use clean filtered water.",
+      "Avoid direct sunlight.",
+      "Change water weekly.",
+      "Trim yellow leaves quickly."
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Thyme",
+    "sci": "Thymus vulgaris",
+    "type": "Herb",
+    "emoji": "🌱",
+    "difficulty": "Easy",
+    "sun": "Full sun",
+    "water": "Every 5–7 days",
+    "humidity": "Low",
+    "temperature": "15–27°C",
+    "benefits": ["Culinary", "Medicinal", "Aromatic"],
+    "description": "Thyme is a fragrant herb used widely in cooking and herbal remedies.",
+    "tips": [
+      "Needs dry soil between watering.",
+      "Harvest regularly.",
+      "Use sandy soil.",
+      "Loves sunlight."
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Peperomia",
+    "sci": "Peperomia obtusifolia",
+    "type": "Tropical",
+    "emoji": "🍃",
+    "difficulty": "Easy",
+    "sun": "Medium indirect",
+    "water": "Every 1–2 weeks",
+    "humidity": "Medium",
+    "temperature": "18–26°C",
+    "benefits": ["Compact plant", "Pet safe", "Decorative"],
+    "description": "Peperomias are compact charming plants with thick leaves and easy-care nature.",
+    "tips": [
+      "Avoid overwatering.",
+      "Thrives in small pots.",
+      "Needs indirect light.",
+      "Perfect desk plant."
     ]
   }
 ]
