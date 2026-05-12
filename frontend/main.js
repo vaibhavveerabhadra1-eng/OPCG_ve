@@ -997,7 +997,7 @@ async function loadPlants() {
     try {
 
         const response = await fetch(
-            "http://127.0.0.1:5000/api/plants"
+            "https://opcg-ve.onrender.com/api/plants"
         );
 
         const plants = await response.json();
